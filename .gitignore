@@ -1,2 +1,16 @@
 # video data
 *.mp4
+/flight
+
+# python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# jupyter notebook artifacts
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.jupyter/
+.virtual_documents/
+profile_default/
+ipython_config.py
